@@ -15,21 +15,39 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    <title>myInventory</title>
+    <title>myInventory System</title>
 </head>
 
 <body class="bg-light">
 
-    <div class="container">
-        <div class="cover mt-4">
+    <div class="container mb-5">
+        <div class="cover my-4">
             <div class="overlay"></div>
             <div class="content">
                 <h2 class="border-bottom border-3 fw-bold pb-2 mt-3">Inventory Application</h2>
             </div>
         </div>
-        <br>
         @yield('content')
+
     </div>
+
+
+    <div class="footer">
+        <div class="footer-content p-3">
+            <p class="mb-0">Find me on <a href="https://github.com/thilinaruwan112/my-inventory"
+                    target="_blank">GitHub</a> and <a href="https://www.linkedin.com/in/thilinaruwan11/"
+                    target="_blank">LinkedIn</a>.</p>
+        </div>
+
+
+        <div class="credits-bar">
+            <p class="mb-0">Developed By <a href="http://myfolio.payshia.com/" target="_blank"
+                    rel="noopener noreferrer">Thilina Ruwan</a></p>
+        </div>
+    </div>
+
+
+
 </body>
 
 </html>

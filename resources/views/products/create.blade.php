@@ -3,7 +3,7 @@
 @section('content')
     <div class="row g-2">
         <div class="col-lg-12">
-            <h2 class="page-title shadow-sm">Add New Product</h2>
+            <h3 class="page-title shadow-sm">Add New Product</h3>
         </div>
         <div class="col-md-12 text-end">
             <a class="btn btn-primary" href="{{ route('products.index') }}"><i class="fa-solid fa-arrow-left"></i> Back</a>

@@ -4,7 +4,7 @@
     <div class="row g-2">
         <div class="col-lg-12 margin-tb">
             <div class="text-left">
-                <h2 class="page-title shadow-sm">Edit Product</h2>
+                <h3 class="page-title shadow-sm">Edit Product</h3>
             </div>
             <div class="text-end">
                 <a class="btn btn-primary" href="{{ route('products.index') }}"><i class="fa-solid fa-arrow-left"></i> Back</a>
